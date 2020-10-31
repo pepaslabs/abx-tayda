@@ -18,6 +18,8 @@ The CAD files require the pre-4.0 version of Kicad, which are available on archi
 
 [gerbers.zip](releases/v2/gerbers.zip)
 
+[firmware](https://github.com/pepaslabs/abx-tayda/blob/main/releases/v2/firmware/abx/abx.ino)
+
 This release fixes a couple of bugs from v1:
 - Replaced the 100k input resistors with proper voltage dividers.
 - Fixed the silkscreen outline of the relays.
