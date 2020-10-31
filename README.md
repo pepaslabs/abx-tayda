@@ -8,9 +8,7 @@ See the thread at [diyaudio.com](https://www.diyaudio.com/forums/equipment-and-t
 
 ![](media/IMG_5904.JPG)
 
-This board design is open source hardware, released under the terms of the [MIT license](https://opensource.org/licenses/MIT).
-
-The CAD files require the pre-4.0 version of Kicad, which are available on archive.org.  Debian users will need to add a jessie source to install libpng12.
+This board design is open source hardware, released under the terms of the [MIT license](https://opensource.org/licenses/MIT).  It requires an [ancient version of Kicad](https://archive.org/details/2013-kicad) (sorry, not sorry 😝).  Debian users will need to add a jessie source to install the libpng12 dependency.
 
 ## v2 release
 
