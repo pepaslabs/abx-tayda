@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0  Date: Thu 08 Mar 2018 12:22:07 AM CST
+#
+$CMP LT6657-5
+D Bandgap Reference
+$ENDCMP
+#
+$CMP TL431
+D TL431 adjustable shunt reference
+$ENDCMP
+#
+$CMP VRE3050
+D Voltage reference
+$ENDCMP
+#
+#End Doc Library
