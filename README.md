@@ -14,6 +14,8 @@ This board design is open source hardware, released under the terms of the [MIT 
 
 ![](releases/v2/top.png)
 
+[schematic](releases/v2/abx.pdf)
+
 [gerbers.zip](releases/v2/gerbers.zip)
 
 [firmware](https://github.com/pepaslabs/abx-tayda/blob/main/releases/v2/firmware/abx/abx.ino)
