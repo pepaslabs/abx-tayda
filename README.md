@@ -46,6 +46,7 @@ This release fixes a couple of bugs from v1:
   - Tayda [MX1382-F91](https://www.taydaelectronics.com/mx1382-f91-micro-switch-1p2t-1a-mx1382-f91.html)
 - **Q1,3,5,7,9,11**: six BS250 P-channel MOSFETs.
   - Oops, there are no TO-92 P-channel MOSFETs available at Tayda :(
+  - Any TO-92 P-channel MOSFET which can handle 100mA will work fine.
 - **Q2,4,6,8,10,12**: six 2N7000 N-channel MOSFETs.
   - [Tayda](https://www.taydaelectronics.com/2n7000-mosfet-n-channel-60v-0-2a.html)
 - **K1-6**: six 3V latching relays
