@@ -10,19 +10,20 @@ See the thread at [diyaudio.com](https://www.diyaudio.com/forums/equipment-and-t
 
 This board design is open source hardware, released under the terms of the [MIT license](https://opensource.org/licenses/MIT).  It requires an [ancient version of Kicad](https://archive.org/details/2013-kicad) (sorry, not sorry 😝).  Debian users will need to add a jessie source to install the libpng12 dependency.
 
-## v2 release
+## v3 release
 
-![](releases/v2/top.png)
+![](releases/v3/top.png)
 
-[schematic](releases/v2/abx.pdf)
+[schematic](releases/v3/abx.pdf)
 
-[gerbers.zip](releases/v2/gerbers.zip)
+[gerbers.zip](releases/v3/gerbers.zip)
 
-[firmware](https://github.com/pepaslabs/abx-tayda/blob/main/releases/v2/firmware/abx/abx.ino)
+[firmware](https://github.com/pepaslabs/abx-tayda/blob/main/releases/v3/firmware/abx/abx.ino)
 
-This release fixes a couple of bugs from v1:
-- Replaced the 100k input resistors with proper voltage dividers.
-- Fixed the silkscreen outline of the relays.
+Changes from v2:
+- Add test points to input X and Y for volume matching convenience.
+- Use pins RX0, TX1 instead of A6, A7 (which cannot be used a digital outputs).
+
 
 ### Bill of materials
 
@@ -65,3 +66,10 @@ Choose one:
   - [Tayda](https://www.taydaelectronics.com/9v-9-volt-battery-clip-connector-with-barrel-jack-plug.html)
   - [Tayda](https://www.taydaelectronics.com/9v-battery-holder-with-barrel-jack-plug.html)
 - **P1**: 9V battery pigtail
+
+
+## v2 release
+
+This release fixes a couple of bugs from v1:
+- Replaced the 100k input resistors with proper voltage dividers.
+- Fixed the silkscreen outline of the relays.
