@@ -1,18 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Fri 30 Oct 2020 06:00:08 PM CDT
-
-BeginCmp
-TimeStamp = /5F8BF955;
-Reference = CON1;
-ValeurCmp = PJ-307;
-IdModule  = SJ1-3523N;
-EndCmp
-
-BeginCmp
-TimeStamp = /5F8BF948;
-Reference = CON2;
-ValeurCmp = PJ-307;
-IdModule  = SJ1-3523N;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Sun 01 Nov 2020 12:56:38 PM CST
 
 BeginCmp
 TimeStamp = /5F8C52A3;
@@ -169,6 +155,20 @@ IdModule  = ARDUINO_NANO_PL;
 EndCmp
 
 BeginCmp
+TimeStamp = /5F8BF948;
+Reference = IN_X1;
+ValeurCmp = PJ-307;
+IdModule  = SJ1-3523N;
+EndCmp
+
+BeginCmp
+TimeStamp = /5F8BF955;
+Reference = IN_Y1;
+ValeurCmp = PJ-307;
+IdModule  = SJ1-3523N;
+EndCmp
+
+BeginCmp
 TimeStamp = /5F8C4235;
 Reference = K1;
 ValeurCmp = FTR-B3GB003Z;
@@ -215,6 +215,48 @@ TimeStamp = /5F8BE49C;
 Reference = P1;
 ValeurCmp = CONN_2X1;
 IdModule  = PIGTAIL2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5F9F081E;
+Reference = P2;
+ValeurCmp = YL;
+IdModule  = 1pin_032_058;
+EndCmp
+
+BeginCmp
+TimeStamp = /5F9F0818;
+Reference = P3;
+ValeurCmp = YR;
+IdModule  = 1pin_032_058;
+EndCmp
+
+BeginCmp
+TimeStamp = /5F9F080B;
+Reference = P4;
+ValeurCmp = YG;
+IdModule  = 1pin_032_058;
+EndCmp
+
+BeginCmp
+TimeStamp = /5F9F0D6C;
+Reference = P5;
+ValeurCmp = XL;
+IdModule  = 1pin_032_058;
+EndCmp
+
+BeginCmp
+TimeStamp = /5F9F0D72;
+Reference = P6;
+ValeurCmp = XR;
+IdModule  = 1pin_032_058;
+EndCmp
+
+BeginCmp
+TimeStamp = /5F9F0D78;
+Reference = P7;
+ValeurCmp = XG;
+IdModule  = 1pin_032_058;
 EndCmp
 
 BeginCmp
