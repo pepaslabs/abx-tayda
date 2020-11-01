@@ -22,8 +22,8 @@
 #define PCH2 9
 #define NCH2 A2
 #define PCH3 A5
-#define NCH3 0
-#define PCH4 1
+#define NCH3 A6
+#define PCH4 A7
 #define NCH4 A4
 #define PCH5 11
 #define NCH5 A0
