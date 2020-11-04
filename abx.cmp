@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Sun 01 Nov 2020 12:56:38 PM CST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Tue 03 Nov 2020 07:38:05 PM CST
 
 BeginCmp
 TimeStamp = /5F8C52A3;
@@ -260,10 +260,10 @@ IdModule  = 1pin_032_058;
 EndCmp
 
 BeginCmp
-TimeStamp = /5F8C5395;
+TimeStamp = /5FA2108E;
 Reference = Q1;
-ValeurCmp = BS250;
-IdModule  = TO-92_Q_SGD_059Bo_PL;
+ValeurCmp = 2N3906;
+IdModule  = TO-92_Q_EBC_059Bo_PL;
 EndCmp
 
 BeginCmp
@@ -274,10 +274,10 @@ IdModule  = TO-92_Q_SGD_059Bo_PL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5F8C5371;
+TimeStamp = /5FA21079;
 Reference = Q3;
-ValeurCmp = BS250;
-IdModule  = TO-92_Q_SGD_059Bo_PL;
+ValeurCmp = 2N3906;
+IdModule  = TO-92_Q_EBC_059Bo_PL;
 EndCmp
 
 BeginCmp
@@ -288,10 +288,10 @@ IdModule  = TO-92_Q_SGD_059Bo_PL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5F8C52D3;
+TimeStamp = /5FA210A3;
 Reference = Q5;
-ValeurCmp = BS250;
-IdModule  = TO-92_Q_SGD_059Bo_PL;
+ValeurCmp = 2N3906;
+IdModule  = TO-92_Q_EBC_059Bo_PL;
 EndCmp
 
 BeginCmp
@@ -302,10 +302,10 @@ IdModule  = TO-92_Q_SGD_059Bo_PL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5F8C52F7;
+TimeStamp = /5FA210BD;
 Reference = Q7;
-ValeurCmp = BS250;
-IdModule  = TO-92_Q_SGD_059Bo_PL;
+ValeurCmp = 2N3906;
+IdModule  = TO-92_Q_EBC_059Bo_PL;
 EndCmp
 
 BeginCmp
@@ -316,10 +316,10 @@ IdModule  = TO-92_Q_SGD_059Bo_PL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5F8C481D;
+TimeStamp = /5FA21064;
 Reference = Q9;
-ValeurCmp = BS250;
-IdModule  = TO-92_Q_SGD_059Bo_PL;
+ValeurCmp = 2N3906;
+IdModule  = TO-92_Q_EBC_059Bo_PL;
 EndCmp
 
 BeginCmp
@@ -330,10 +330,10 @@ IdModule  = TO-92_Q_SGD_059Bo_PL;
 EndCmp
 
 BeginCmp
-TimeStamp = /5F8C43D3;
+TimeStamp = /5FA2037A;
 Reference = Q11;
-ValeurCmp = BS250;
-IdModule  = TO-92_Q_SGD_059Bo_PL;
+ValeurCmp = 2N3906;
+IdModule  = TO-92_Q_EBC_059Bo_PL;
 EndCmp
 
 BeginCmp
@@ -494,6 +494,41 @@ BeginCmp
 TimeStamp = /5F9C9C90;
 Reference = R22;
 ValeurCmp = 100k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5FA20401;
+Reference = R23;
+ValeurCmp = 10k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5FA20713;
+Reference = R24;
+ValeurCmp = 10k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5FA2098C;
+Reference = R25;
+ValeurCmp = 10k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5FA209A4;
+Reference = R26;
+ValeurCmp = 10k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5FA209AA;
+Reference = R27;
+ValeurCmp = 10k;
 IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp
 
