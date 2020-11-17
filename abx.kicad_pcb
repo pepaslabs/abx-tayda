@@ -1796,10 +1796,10 @@
     )
   )
 
-  (module ARDUINO_NANO_PL (layer F.Cu) (tedit 5FA20B00) (tstamp 5F8CE70A)
+  (module ARDUINO_NANO_PL (layer F.Cu) (tedit 5FB34EEB) (tstamp 5F8CE70A)
     (at 167.64 213.36 90)
     (path /5F8CDA99)
-    (fp_text reference IC1 (at -5.08 -7.62 180) (layer F.SilkS)
+    (fp_text reference IC1 (at 2.54 -7.62 180) (layer F.SilkS)
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
     )
     (fp_text value ARDUINO_NANO (at 40.64 -7.62 180) (layer F.SilkS)
