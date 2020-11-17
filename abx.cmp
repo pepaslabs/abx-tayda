@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Tue 03 Nov 2020 07:38:05 PM CST
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = Mon 16 Nov 2020 10:05:17 PM CST
 
 BeginCmp
 TimeStamp = /5F8C52A3;
@@ -528,6 +528,13 @@ EndCmp
 BeginCmp
 TimeStamp = /5FA209AA;
 Reference = R27;
+ValeurCmp = 10k;
+IdModule  = R_AXIAL_0W25_059A_PL;
+EndCmp
+
+BeginCmp
+TimeStamp = /5FB34AD5;
+Reference = R28;
 ValeurCmp = 10k;
 IdModule  = R_AXIAL_0W25_059A_PL;
 EndCmp

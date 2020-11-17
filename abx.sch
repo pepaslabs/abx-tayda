@@ -57,7 +57,7 @@ $Descr User 17000 11000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "4 nov 2020"
+Date "17 nov 2020"
 Rev ""
 Comp ""
 Comment1 ""
@@ -522,11 +522,11 @@ F 3 "~" H 11150 5300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 11250 1850 2    40   Input ~ 0
-PCH1
+PNP1
 Text GLabel 11250 2450 2    40   Input ~ 0
 NCH2
 Text GLabel 11250 4100 2    40   Input ~ 0
-PCH2
+PNP2
 Text GLabel 11250 4700 2    40   Input ~ 0
 NCH1
 Text GLabel 12600 1550 1    40   Input ~ 0
@@ -690,11 +690,11 @@ F 3 "~" H 12100 5300 50  0000 C CNN
 	-1   0    0    -1  
 $EndComp
 Text GLabel 12000 1850 0    40   Input ~ 0
-PCH3
+PNP3
 Text GLabel 12000 2450 0    40   Input ~ 0
 NCH4
 Text GLabel 12000 4100 0    40   Input ~ 0
-PCH4
+PNP4
 Text GLabel 12000 4700 0    40   Input ~ 0
 NCH3
 NoConn ~ 14300 1650
@@ -844,11 +844,11 @@ F 3 "~" H 11100 10250 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text GLabel 11200 6800 2    40   Input ~ 0
-PCH5
+PNP5
 Text GLabel 11200 7400 2    40   Input ~ 0
 NCH6
 Text GLabel 11200 9050 2    40   Input ~ 0
-PCH6
+PNP6
 Text GLabel 11200 9650 2    40   Input ~ 0
 NCH5
 NoConn ~ 9050 6300
@@ -859,23 +859,23 @@ NoConn ~ 9050 8450
 NoConn ~ 9050 8750
 NoConn ~ 5100 5700
 Text GLabel 5900 6200 2    40   Input ~ 0
-PCH1
+PNP1
 Text GLabel 4150 6600 0    40   Input ~ 0
 NCH1
 Text GLabel 3500 6500 0    40   Input ~ 0
-PCH2
+PNP2
 Text GLabel 5200 6300 2    40   Input ~ 0
 NCH2
 Text GLabel 5900 6000 2    40   Input ~ 0
-PCH3
+PNP3
 Text GLabel 4150 5500 0    40   Input ~ 0
 NCH3
-Text GLabel 4150 5400 0    40   Input ~ 0
-PCH4
+Text GLabel 3500 5400 0    40   Input ~ 0
+PNP4
 Text GLabel 3500 6700 0    40   Input ~ 0
-PCH5
+PNP5
 Text GLabel 5900 6400 2    40   Input ~ 0
-PCH6
+PNP6
 Text GLabel 5200 6100 2    40   Input ~ 0
 NCH4
 Text GLabel 4150 6800 0    40   Input ~ 0
@@ -1142,7 +1142,7 @@ F 3 "~" H 3050 7000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 1050 1100 0    200  ~ 40
-ABX relay board (tayda edition) v4
+ABX relay board (tayda edition) v4.1
 Text Notes 1150 1600 0    100  ~ 0
 github.com/pepaslabs/abx-tayda
 Text Notes 3950 9200 0    60   ~ 0
@@ -1658,7 +1658,7 @@ Wire Notes Line
 Wire Notes Line
 	8700 10450 8700 5800
 Wire Wire Line
-	4150 5400 4250 5400
+	4000 5400 4250 5400
 Wire Wire Line
 	4150 5500 4250 5500
 Wire Wire Line
@@ -1848,4 +1848,17 @@ F 3 "~" H 12500 4100 60  0000 C CNN
 	1    12500 4100
 	1    0    0    -1  
 $EndComp
+$Comp
+L R_0W25 R28
+U 1 1 5FB34AD5
+P 3800 5400
+F 0 "R28" V 3880 5400 40  0000 C CNN
+F 1 "10k" V 3800 5400 40  0000 C CNN
+F 2 "~" V 3730 5400 30  0000 C CNN
+F 3 "~" H 3800 5400 30  0000 C CNN
+	1    3800 5400
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3500 5400 3600 5400
 $EndSCHEMATC
